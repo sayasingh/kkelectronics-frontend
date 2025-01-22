@@ -1,0 +1,155 @@
+/* Reset body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container to cover the whole page */
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Logo section (left half) */
+  .logo {
+    flex: 1; /* Covers 50% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec; /* Light gray background */
+    padding: 20px;
+  }
+  
+  .logo img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    animation: none;
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form section (right half) */
+  .form {
+    flex: 1; /* Covers the other 50% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+  }
+  
+  .form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* .form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #667e97;
+  } */
+  
+  .form div {
+    margin-top: 10px;
+  }
+  
+  /* .form div button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .form div button:hover {
+    color: #0056b3;
+  } */
+
+  .Button-Signin {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Button-Signin:hover {
+    background-color: #667e97;
+  } 
+
+  .Button-signup {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Button-signup:hover {
+    background-color: #667e97;
+  } 
+
+  .Button-cancel {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(203, 203, 203);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Button-cancel:hover {
+    background-color: #667e97;
+  } 
+  
+  
+
+  
+  
