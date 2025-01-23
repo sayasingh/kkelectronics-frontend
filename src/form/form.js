@@ -35,7 +35,7 @@ function Form() {
                                 <input type="password" id="confirm-password" placeholder="Confirm your password" required/>
                             </div>
                             <button className="Button-signup" type="submit">Sign Up</button>
-                            <button className="Button-cancel" type="submit">Cancel</button>
+                            <button className="Button-cancel" type="button"onClick={() => setIsSignUp(false)}>Cancel</button>
                         </form>
                     </>
                 ) : (
